@@ -6,6 +6,16 @@ h1 {
     color: brown;
 }
 
+@keyframes appearing from the right {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0;
+    }
+}
+
 div {
     min-width: 80vh;
     padding: 10px;
